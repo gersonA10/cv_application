@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "378393824412",
+    "project_id": "cvapplication-301d5",
+    "storage_bucket": "cvapplication-301d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378393824412:android:cf789880b401463e38f159",
+        "android_client_info": {
+          "package_name": "com.example.cv_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378393824412-v2qgdei11g46099o430spkfu07atu4cd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcGTRMh3nN0eAsMEpgPFsym-Znx6zP2M0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378393824412-v2qgdei11g46099o430spkfu07atu4cd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "378393824412-8vbpq6r9ufi6jdaep1n2883t9561nts8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cvApplication"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
