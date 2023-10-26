@@ -1,12 +1,12 @@
-import 'dart:developer';
+// import 'dart:developer';
 
 import 'package:card_swiper/card_swiper.dart';
 import 'package:cv_application/utils/datos.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+// import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:showcaseview/showcaseview.dart';
+// import 'package:showcaseview/showcaseview.dart';
 // import 'package:tutorial_coach_mark/tutorial_coach_mark.dart';
 
 class DetailHomePage extends StatefulWidget {
@@ -21,7 +21,7 @@ class DetailHomePage extends StatefulWidget {
 class _DetailHomePageState extends State<DetailHomePage> {
   SharedPreferences? prefs;
 
-  final GlobalKey _one = GlobalKey();
+  // final GlobalKey _one = GlobalKey();
   BuildContext? myContext;
 
   bool _selected = false;
@@ -82,7 +82,6 @@ class _DetailHomePageState extends State<DetailHomePage> {
                     backgroundImage: AssetImage("assets/profile.JPG"),
                   ),
                 ),
-                
               ],
             ),
             const SizedBox(
@@ -156,10 +155,9 @@ class _DetailHomePageState extends State<DetailHomePage> {
                         Text(
                           skills[index]["level"] ?? "",
                           style: TextStyle(
-                            fontSize: 35,
-                            fontWeight: FontWeight.bold,
-                            color: skills[index]["color"]
-                          ),
+                              fontSize: 35,
+                              fontWeight: FontWeight.bold,
+                              color: skills[index]["color"]),
                         ),
                         // const Spacer(),
                         // circularProgress(

@@ -13,7 +13,7 @@ class CertificacionesPage extends StatelessWidget {
         ),
       ),
       body: ListView(
-        physics: BouncingScrollPhysics(),
+        physics: const BouncingScrollPhysics(),
         children: [
           Certificate(
             image: "assets/flutter.jpg",

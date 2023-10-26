@@ -1,4 +1,3 @@
-import 'package:cv_application/models/card_model.dart';
 import 'package:flutter/material.dart';
 
 class DetailPage extends StatelessWidget {

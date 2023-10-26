@@ -1,5 +1,4 @@
 import 'package:cv_application/pages/detail_page.dart';
-import 'package:cv_application/pages/skills_programming.dart';
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -35,7 +34,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   SharedPreferences? prefs;
-  String _key = '';
+  // String _key = '';
   late TutorialCoachMark tutorialCoachMark;
   GlobalKey keybutton = GlobalKey();
 
